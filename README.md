@@ -16,4 +16,4 @@ The following are a few resources that we referred to while preparing for the SR
 - [React Docs](https://react.dev/learn)
 - [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/)
 - [Thinking in React](https://react.dev/learn/thinking-in-react)
-<!-- - [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) -->
+- [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
