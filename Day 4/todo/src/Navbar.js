@@ -1,14 +1,17 @@
-const Navbar = () => {
+const Navbar = ({title, name, link}) => {
   return ( 
       <nav className = "navbar">
-          <h1> Just a Navbar </h1>
+          <h1> {title} </h1>
           <div className = "links">
               <a href = "/"> Home </a>
-              <a href = "reactjs.org" style = {{
+              <a href = {link} 
+                target="_blank"
+                rel="noreferrer"
+                style = {{
                   color: "white",
                   backgroundColor: "#f1356d",
                   borderRadius: "8px",
-              }}> React.js </a>
+              }}> {name} </a>
           </div>
       </nav>
   );

@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-const Home = () => {
+const Home = (props) => {
     const[text, setText] = useState('Did you click?');
 
     const handleClick = (e) => {
@@ -13,20 +13,20 @@ const Home = () => {
         console.log('Hey! I am ' + name);
         console.log("Event object", e);
         console.log('Event Target', e.target);
-        setText('You clicked again!')
+        setText('Hey! I am ' + name)
     }
     return ( 
         <div className="home">
             <h2> Just a homepage with some buttons! </h2>
             <br></br>
-            <h3> Hey! I am Reuben</h3>
+            <h3> Hey! I am {props.name}</h3>
             <br></br>
             <h3> {text} </h3>
             <br></br>
             <button onClick = {handleClick}>Click me</button>
             <br></br><br></br>
             <button onClick = {(e) => {
-                handleClickAgain('Reuben', e);
+                handleClickAgain(props.name, e);
             }}>Click me again</button>
         </div>
     );
