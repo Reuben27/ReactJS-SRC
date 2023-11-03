@@ -1,24 +1,22 @@
 import logo from "./logo.svg";
 import "./App.css";
+import ConditionalRender from "./ConditionalRender";
+import ListMap from "./ListMap";
+import StateExample from "./StateExample";
+import EffectExample from "./EffectExample";
+import EffectExample2 from "./EffectExample2";
+import CustomHookExample from "./CustomHook/CustomHookExample";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ConditionalRender />
+      {/* <ListMap/>
+  <StateExample/>
+  <EffectExample/>
+  <EffectExample2/>
+  <CustomHookExample/> */}
+    </>
   );
 }
 
