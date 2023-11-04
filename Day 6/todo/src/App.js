@@ -18,6 +18,7 @@ function App() {
                 <Route path = "*" element = {<PageNotFound/>} />
                 <Route path = "/" element = {<Home/>} />
                 <Route path = "/add-task" element = {<AddTask/>} />
+                <Route path = "/task/:id" element = {<Home taskid = "true" />} />
               </Routes>
             </div>
           </div>

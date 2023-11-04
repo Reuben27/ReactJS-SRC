@@ -1,11 +1,18 @@
 import React from "react";
+import { useParams } from 'react-router-dom';
 import { BASEURL } from "../Utils/Constants";
 import useFetch from "../Utils/useFetch";
 import TaskList from "./TaskList";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Home = () => {
-  const {data: tasks, isPending, error} = useFetch(BASEURL + 'tasks/');
+const Home = (props) => {
+  const {id} = useParams();
+  let url = BASEURL + 'tasks/';
+
+  if(props.taskid === "true"){
+    url = url + "?id=" + id;
+  }
+  const {data: tasks, isPending, error} = useFetch(url);
 
   return (
     <div className = "container">
