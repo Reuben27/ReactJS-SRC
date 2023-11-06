@@ -2,15 +2,9 @@
   "tasks": [
     {
       "title": "random task",
-      "isDone": false,
+      "isDone": true,
       "deadline": "2022-01-21T05:35:25.411Z",
       "id": 1
-    },
-    {
-      "title": "New task",
-      "isDone": false,
-      "deadline": "2023-11-02T17:16:24.000Z",
-      "id": 4
     }
   ],
   "deleted-tasks": [
@@ -25,6 +19,21 @@
       "isDone": false,
       "deadline": "2022-01-21T05:35:25.411Z",
       "id": 3
+    },
+    {
+      "title": "New task",
+      "isDone": true,
+      "id": 4
+    },
+    {
+      "title": "123456",
+      "isDone": false,
+      "id": 5
+    },
+    {
+      "title": "Random stuff 123",
+      "isDone": true,
+      "id": 6
     }
   ]
 }

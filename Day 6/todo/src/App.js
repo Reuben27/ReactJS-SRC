@@ -15,10 +15,10 @@ function App() {
             <Navbar/>
             <div className = "content">
               <Routes>
-                <Route path = "*" element = {<PageNotFound/>} />
                 <Route path = "/" element = {<Home/>} />
                 <Route path = "/add-task" element = {<AddTask/>} />
                 <Route path = "/task/:id" element = {<Home taskid = "true" />} />
+                <Route path = "*" element = {<PageNotFound/>} />
               </Routes>
             </div>
           </div>
