@@ -1,0 +1,50 @@
+{
+  "tasks": [
+    {
+      "title": "random task",
+      "isDone": true,
+      "id": 1
+    },
+    {
+      "title": "Grocery 2",
+      "isDone": false,
+      "deadline": "2023-11-07T17:22:57.490Z",
+      "id": 2
+    }
+  ],
+  "deleted-tasks": [
+    {
+      "title": "random",
+      "isDone": false,
+      "deadline": "2022-01-21T05:35:25.411Z",
+      "id": 2
+    },
+    {
+      "title": "random task 3",
+      "isDone": false,
+      "deadline": "2022-01-21T05:35:25.411Z",
+      "id": 3
+    },
+    {
+      "title": "New task",
+      "isDone": true,
+      "id": 4
+    },
+    {
+      "title": "123456",
+      "isDone": false,
+      "id": 5
+    },
+    {
+      "title": "Random stuff 123",
+      "isDone": true,
+      "id": 6
+    },
+    {
+      "title": "Grocery",
+      "isDone": false,
+      "deadline": "2023-11-09T09:37:21.470Z",
+      "id": 7
+    }
+  ]
+}
