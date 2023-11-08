@@ -17,3 +17,5 @@ The following are a few resources that we referred to while preparing for the SR
 - [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/)
 - [Thinking in React](https://react.dev/learn/thinking-in-react)
 - [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [React Router](https://reactrouter.com/en/main/start/overview)
+- [Net Ninja React](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d)
